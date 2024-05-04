@@ -14,11 +14,20 @@
 		06CF18512BC68C4E00AB9081 /* ios_challengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF18502BC68C4E00AB9081 /* ios_challengeTests.swift */; };
 		06CF185B2BC68C4E00AB9081 /* ios_challengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF185A2BC68C4E00AB9081 /* ios_challengeUITests.swift */; };
 		06CF185D2BC68C4E00AB9081 /* ios_challengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF185C2BC68C4E00AB9081 /* ios_challengeUITestsLaunchTests.swift */; };
-		06CF18702BC68CB200AB9081 /* MainSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF186F2BC68CB200AB9081 /* MainSceneView.swift */; };
 		60883FF92BE61A1A00861001 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60883FF62BE61A1900861001 /* Currency.swift */; };
 		60883FFA2BE61A1A00861001 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60883FF72BE61A1900861001 /* Transaction.swift */; };
 		60883FFD2BE61E5F00861001 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60883FFB2BE61E5F00861001 /* Store.swift */; };
 		60883FFF2BE61F6000861001 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60883FFE2BE61F5F00861001 /* Injection.swift */; };
+		6088400B2BE625C000861001 /* CurrencyBuySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608840022BE625C000861001 /* CurrencyBuySheet.swift */; };
+		6088400C2BE625C000861001 /* CurrencyRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608840032BE625C000861001 /* CurrencyRow.swift */; };
+		6088400D2BE625C000861001 /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608840042BE625C000861001 /* CurrencyView.swift */; };
+		6088400E2BE625C000861001 /* HistoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608840052BE625C000861001 /* HistoryRow.swift */; };
+		6088400F2BE625C000861001 /* HistorySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608840062BE625C000861001 /* HistorySheet.swift */; };
+		608840102BE625C000861001 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608840082BE625C000861001 /* DashboardView.swift */; };
+		608840112BE625C000861001 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608840092BE625C000861001 /* DashboardViewModel.swift */; };
+		608840132BE625F000861001 /* MainSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608840122BE625EF00861001 /* MainSceneView.swift */; };
+		608840162BE62A4000861001 /* Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608840142BE62A4000861001 /* Decimal.swift */; };
+		608840172BE62A4000861001 /* Sequence+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608840152BE62A4000861001 /* Sequence+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +59,20 @@
 		06CF18562BC68C4E00AB9081 /* ios-challengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-challengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06CF185A2BC68C4E00AB9081 /* ios_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_challengeUITests.swift; sourceTree = "<group>"; };
 		06CF185C2BC68C4E00AB9081 /* ios_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		06CF186F2BC68CB200AB9081 /* MainSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSceneView.swift; sourceTree = "<group>"; };
 		60883FF62BE61A1900861001 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		60883FF72BE61A1900861001 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		60883FFB2BE61E5F00861001 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		60883FFE2BE61F5F00861001 /* Injection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		608840022BE625C000861001 /* CurrencyBuySheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyBuySheet.swift; sourceTree = "<group>"; };
+		608840032BE625C000861001 /* CurrencyRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyRow.swift; sourceTree = "<group>"; };
+		608840042BE625C000861001 /* CurrencyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		608840052BE625C000861001 /* HistoryRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRow.swift; sourceTree = "<group>"; };
+		608840062BE625C000861001 /* HistorySheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistorySheet.swift; sourceTree = "<group>"; };
+		608840082BE625C000861001 /* DashboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		608840092BE625C000861001 /* DashboardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		608840122BE625EF00861001 /* MainSceneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSceneView.swift; sourceTree = "<group>"; };
+		608840142BE62A4000861001 /* Decimal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decimal.swift; sourceTree = "<group>"; };
+		608840152BE62A4000861001 /* Sequence+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				06CF186E2BC68CA400AB9081 /* main */,
+				6088400A2BE625C000861001 /* dashboard */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -173,7 +192,7 @@
 		06CF186E2BC68CA400AB9081 /* main */ = {
 			isa = PBXGroup;
 			children = (
-				06CF186F2BC68CB200AB9081 /* MainSceneView.swift */,
+				608840122BE625EF00861001 /* MainSceneView.swift */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -193,6 +212,8 @@
 			children = (
 				06CF18732BC68D0600AB9081 /* app */,
 				60883FFE2BE61F5F00861001 /* Injection.swift */,
+				608840142BE62A4000861001 /* Decimal.swift */,
+				608840152BE62A4000861001 /* Sequence+Utils.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -222,6 +243,28 @@
 				60883FFB2BE61E5F00861001 /* Store.swift */,
 			);
 			path = store;
+			sourceTree = "<group>";
+		};
+		608840072BE625C000861001 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				608840022BE625C000861001 /* CurrencyBuySheet.swift */,
+				608840032BE625C000861001 /* CurrencyRow.swift */,
+				608840042BE625C000861001 /* CurrencyView.swift */,
+				608840052BE625C000861001 /* HistoryRow.swift */,
+				608840062BE625C000861001 /* HistorySheet.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6088400A2BE625C000861001 /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				608840072BE625C000861001 /* views */,
+				608840082BE625C000861001 /* DashboardView.swift */,
+				608840092BE625C000861001 /* DashboardViewModel.swift */,
+			);
+			path = dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,13 +397,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6088400F2BE625C000861001 /* HistorySheet.swift in Sources */,
 				60883FFF2BE61F6000861001 /* Injection.swift in Sources */,
+				6088400D2BE625C000861001 /* CurrencyView.swift in Sources */,
 				60883FF92BE61A1A00861001 /* Currency.swift in Sources */,
+				608840172BE62A4000861001 /* Sequence+Utils.swift in Sources */,
 				06CF18412BC68C4D00AB9081 /* ContentView.swift in Sources */,
 				06CF183F2BC68C4D00AB9081 /* iOSApp.swift in Sources */,
+				6088400E2BE625C000861001 /* HistoryRow.swift in Sources */,
 				60883FFD2BE61E5F00861001 /* Store.swift in Sources */,
-				06CF18702BC68CB200AB9081 /* MainSceneView.swift in Sources */,
+				608840132BE625F000861001 /* MainSceneView.swift in Sources */,
+				608840162BE62A4000861001 /* Decimal.swift in Sources */,
+				6088400B2BE625C000861001 /* CurrencyBuySheet.swift in Sources */,
+				6088400C2BE625C000861001 /* CurrencyRow.swift in Sources */,
+				608840102BE625C000861001 /* DashboardView.swift in Sources */,
 				60883FFA2BE61A1A00861001 /* Transaction.swift in Sources */,
+				608840112BE625C000861001 /* DashboardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
